@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    user-select: none;
+    cursor: pointer;
+}
+
+.card {
+
+    background-color: rgb(6, 6, 49);
+    height: 100vh;
+}
+
+.menu-section {
+    margin-top: 17%;
+}
+
+.wrapper {
+
+    height: 100%;
+    width: 1140px;
+    margin: auto
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.title {
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    gap: 20px;
+}
+
+.menu-button {
+    color: white;
+    text-decoration: none;
+}
+
+.munu-button {
+    color: white;
+    padding: 10px 5px 10px 5px;
+    border: 3px solid gray;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.text {
+    margin-bottom: 17px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.text-section {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-menu {
+    border-radius: 20px;
+    background-color: green;
+    width: 190px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+}
+
+.button-manu {
+    border-radius: 20px;
+    background-color: blueviolet;
+    width: 190px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+}
+
+.mcnu-button {
+    color: rgb(0, 55, 128);
+    text-decoration: none;
+}
+
+.class {
+    font-weight: 300;
+}
+
+.a {
+    color: rgb(0, 55, 128);
+}
+
+.menu-button:hover{
+    border-bottom: 2px solid gray;
+}
+
+.mcnu-button:hover {
+    border-bottom: 2px solid gray;
+}
